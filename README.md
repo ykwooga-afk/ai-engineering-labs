@@ -4,7 +4,7 @@
 
 **Student:** Woo Yong Kang — A24AI0123  
 **Course:** SAIA3113 — AI Engineering  
-**Project stage:** Week 1 scoping; implementation and evaluation are planned.
+**Project stage:** Week 2 requirements, evaluation plan and conceptual architecture prepared; implementation and evaluation are planned.
 
 ## Problem Statement
 
@@ -67,13 +67,24 @@ Outputs will be labelled as research estimates. SHAP explanations are not causal
 
 See the [full Week 1 project scope](docs/week1_project_scope.md).
 
+## Topic 2 Lab deliverables
+
+| Part | Deliverable |
+| --- | --- |
+| A | [Project framing, scope and requirements](docs/week2_requirements.md) |
+| B | [Evaluation criteria](docs/week2_evaluation_criteria.md) |
+| C | [V1 architecture diagram](docs/week2_architecture_v1.png) |
+| C | [Architecture decisions and traceability](docs/week2_architecture_decisions.md) |
+
+Each written part includes its reflection. All acceptance thresholds are proposed targets, not measured results. The [editable Draw.io diagram](docs/week2_architecture_v1.drawio) and [public document attribution](data/README.md) are also available.
+
 ## Weekly Progress
 
 | Week | Focus | Deliverable | Status |
 | --- | --- | --- | --- |
 | W1 | Individual project framing | Project scope, README, public source links, and directory scaffold | Prepared |
 | W1 | Group system analysis | Part A observation sheet and Part B system map | Existing group files retained in `docs/`; final group corrections remain to be checked |
-| W2 | Requirements refinement | Confirm feature availability and evaluation criteria | Planned |
+| W2 | Parts A, B and C | Requirements, evaluation criteria, V1 architecture, decisions and traceability | Prepared; targets not yet evaluated |
 
 ## References
 
@@ -81,3 +92,4 @@ See the [full Week 1 project scope](docs/week1_project_scope.md).
 [2] Martins, M. V., et al. (2023). *Multi-Class Phased Prediction of Academic Performance and Dropout in Higher Education*. Applied Sciences, 13(8), 4702. https://doi.org/10.3390/app13084702  
 [3] Karimi-Haghighi, M., et al. (2021). *Predicting Early Dropout: Calibration and Algorithmic Fairness Considerations*. https://arxiv.org/abs/2103.09068  
 [4] Realinho, V., et al. (2021). *Predict Students' Dropout and Academic Success*. UCI Machine Learning Repository. https://doi.org/10.24432/C5MC89
+
