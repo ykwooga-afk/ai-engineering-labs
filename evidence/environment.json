@@ -1,0 +1,7 @@
+{
+  "runtime": "Local Python (sequential notebook-cell execution)",
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "pypdf": "6.21.4",
+  "executed_at_utc": "2026-11-12T11:39:36.902888+00:00"
+}

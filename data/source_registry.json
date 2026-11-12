@@ -1,0 +1,54 @@
+{
+  "S01": {
+    "filename": "uci_dropout.csv",
+    "original_filename": "data.csv",
+    "title": "Predict Students' Dropout and Academic Success",
+    "authors": "Realinho, V.; Vieira Martins, M.; Machado, J.; Baptista, L. (2021)",
+    "url": "https://doi.org/10.24432/C5MC89",
+    "download_url": "https://archive.ics.uci.edu/static/public/697/predict%2Bstudents%2Bdropout%2Band%2Bacademic%2Bsuccess.zip",
+    "access_date": "2026-11-12",
+    "version": "UCI release retrieved 2026-11-12; identified by SHA-256",
+    "sha256": "3ef126de5cefff26eb11fbb4237f1a1401cb64b488e2f1d598c23cedeb4c45ae",
+    "type": "Structured tabular CSV",
+    "requirements": [
+      "FR2",
+      "NFR4"
+    ],
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "S02": {
+    "filename": "realinho_2022.pdf",
+    "title": "Predicting Student Dropout and Academic Success",
+    "authors": "Realinho, V.; Machado, J.; Baptista, L.; Martins, M. V. (2022)",
+    "url": "https://doi.org/10.3390/data7110146",
+    "download_url": "https://www.mdpi.com/2306-5729/7/11/146/pdf",
+    "access_date": "2026-11-05",
+    "version": "Data 7(11), 146; unchanged Lab 2 PDF",
+    "sha256": "1be95db77df7714e2b0783811c414895150c45cee6bbd8a79d6bd61b3a2185fb",
+    "type": "Unstructured PDF text",
+    "requirements": [
+      "FR5",
+      "NFR4"
+    ],
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "S03": {
+    "filename": "martins_2023.pdf",
+    "title": "Multi-Class Phased Prediction of Academic Performance and Dropout in Higher Education",
+    "authors": "Martins, M. V.; Baptista, L.; Machado, J.; Realinho, V. (2023)",
+    "url": "https://doi.org/10.3390/app13084702",
+    "download_url": "https://www.mdpi.com/2076-3417/13/8/4702/pdf",
+    "access_date": "2026-11-05",
+    "version": "Applied Sciences 13(8), 4702; unchanged Lab 2 PDF",
+    "sha256": "2f092cb9803c2ae1f3a9198f9fe3752c3f664c0f5307b2177417a8c057d4ab46",
+    "type": "Unstructured PDF text",
+    "requirements": [
+      "FR5",
+      "NFR4"
+    ],
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

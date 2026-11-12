@@ -1,0 +1,22 @@
+{
+  "baseline": {
+    "rows": 4424,
+    "source_columns": 37,
+    "whitespace_headers": 1,
+    "missing_cells": 0
+  },
+  "selected": {
+    "rows": 4424,
+    "columns_including_row_id": 38,
+    "renames": {
+      "'Daytime/evening attendance\\t'": "Daytime/evening attendance"
+    },
+    "text_cells_changed": 0,
+    "exact_duplicates_quarantined": 0,
+    "conflicting_rows_quarantined": 0,
+    "missing_cells": 0
+  },
+  "decision": "Trim whitespace; quarantine conflicts and repeated exact rows; preserve all other source values.",
+  "benefit": "Stable schema and auditable record handling without learned preprocessing.",
+  "limitation": "No observed missing/duplicate rows in this release; does not prove future-source quality or model fitness."
+}

@@ -1,0 +1,165 @@
+{
+  "scope": "Parts A/B content and provenance checks; not full model evaluation",
+  "checks": [
+    {
+      "check": "Prepared table exists and is nonempty",
+      "result": "PASS"
+    },
+    {
+      "check": "Table content round-trip matches",
+      "result": "PASS"
+    },
+    {
+      "check": "Row accounting",
+      "result": "PASS"
+    },
+    {
+      "check": "Unique technical row keys",
+      "result": "PASS"
+    },
+    {
+      "check": "Three original target classes retained",
+      "result": "PASS"
+    },
+    {
+      "check": "Admission grades in documented 0..200 range",
+      "result": "PASS"
+    },
+    {
+      "check": "Previous grades in documented 0..200 range",
+      "result": "PASS"
+    },
+    {
+      "check": "No negative semester-one counts",
+      "result": "PASS"
+    },
+    {
+      "check": "Semester-one grade in 0..20 range",
+      "result": "PASS"
+    },
+    {
+      "check": "t0: exact allowlist order",
+      "result": "PASS"
+    },
+    {
+      "check": "t0: row alignment",
+      "result": "PASS"
+    },
+    {
+      "check": "t0: forbidden predictors absent",
+      "result": "PASS"
+    },
+    {
+      "check": "t0: exact selected values retained",
+      "result": "PASS"
+    },
+    {
+      "check": "t1: exact allowlist order",
+      "result": "PASS"
+    },
+    {
+      "check": "t1: row alignment",
+      "result": "PASS"
+    },
+    {
+      "check": "t1: forbidden predictors absent",
+      "result": "PASS"
+    },
+    {
+      "check": "t1: exact selected values retained",
+      "result": "PASS"
+    },
+    {
+      "check": "targets.csv: content and alignment",
+      "result": "PASS"
+    },
+    {
+      "check": "audit_attributes.csv: content and alignment",
+      "result": "PASS"
+    },
+    {
+      "check": "Document export exact JSONL round-trip",
+      "result": "PASS"
+    },
+    {
+      "check": "Document record IDs unique",
+      "result": "PASS"
+    },
+    {
+      "check": "Every chunk nonempty and bounded",
+      "result": "PASS"
+    },
+    {
+      "check": "Both document sources represented",
+      "result": "PASS"
+    },
+    {
+      "check": "S02: all pages covered with exact source spans",
+      "result": "PASS"
+    },
+    {
+      "check": "S03: all pages covered with exact source spans",
+      "result": "PASS"
+    },
+    {
+      "check": "Source hashes match for all document records",
+      "result": "PASS"
+    },
+    {
+      "check": "Manifest round-trip and registration count",
+      "result": "PASS"
+    },
+    {
+      "check": "S01 → data/processed/prepared_table.csv: checksums",
+      "result": "PASS"
+    },
+    {
+      "check": "S01 → data/processed/quarantined_rows.csv: checksums",
+      "result": "PASS"
+    },
+    {
+      "check": "S01 → data/processed/features_t0.csv: checksums",
+      "result": "PASS"
+    },
+    {
+      "check": "S01 → data/processed/features_t1.csv: checksums",
+      "result": "PASS"
+    },
+    {
+      "check": "S01 → data/processed/targets.csv: checksums",
+      "result": "PASS"
+    },
+    {
+      "check": "S01 → data/processed/audit_attributes.csv: checksums",
+      "result": "PASS"
+    },
+    {
+      "check": "S01 → data/processed/feature_allowlists.json: checksums",
+      "result": "PASS"
+    },
+    {
+      "check": "S01 → docs/week3_feature_policy.csv: checksums",
+      "result": "PASS"
+    },
+    {
+      "check": "S02 → data/processed/prepared_text.jsonl: checksums",
+      "result": "PASS"
+    },
+    {
+      "check": "S03 → data/processed/prepared_text.jsonl: checksums",
+      "result": "PASS"
+    }
+  ],
+  "passed": 37,
+  "failed": 0,
+  "table_rows": 4424,
+  "quarantined_rows": 0,
+  "text_chunks": 168,
+  "source_count": 3,
+  "lineage_entries": 10,
+  "quality_caveats": [
+    "PDF reading order and repeated table extraction remain unresolved.",
+    "No model training, fairness result or performance claim.",
+    "No Google Colab execution claimed unless runtime above says Google Colab."
+  ]
+}

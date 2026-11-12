@@ -1,0 +1,26 @@
+[
+  {
+    "source_id": "S02",
+    "pages": 17,
+    "raw_characters": 99741,
+    "clean_characters": 95758,
+    "fixed_chunks": 96,
+    "selected_chunks": 108,
+    "fixed_chunks_crossing_page_boundary": 16,
+    "selected_chunks_crossing_page_boundary": 0,
+    "fixed_first_sample": "Citation: Realinho, V .; Machado, J.;\nBaptista, L.; Martins, M.V . Predicting\nStudent Dropout and Academic\nSuccess. Data 2022, 7, 146.\nhttps://doi.org/10.3390/\n",
+    "selected_first_sample": "Citation: Realinho, V .; Machado, J.;\nBaptista, L.; Martins, M.V . Predicting\nStudent Dropout and Academic\nSuccess. Data 2022, 7, 146.\nhttps://doi.org/10.3390/\n"
+  },
+  {
+    "source_id": "S03",
+    "pages": 15,
+    "raw_characters": 50591,
+    "clean_characters": 50216,
+    "fixed_chunks": 51,
+    "selected_chunks": 60,
+    "fixed_chunks_crossing_page_boundary": 14,
+    "selected_chunks_crossing_page_boundary": 0,
+    "fixed_first_sample": "Citation: Martins, M.V .; Baptista, L.;\nMachado, J.; Realinho, V . Multi-Class\nPhased Prediction of Academic\nPerformance and Dropout in Higher\nEducation. Appl. ",
+    "selected_first_sample": "Citation: Martins, M.V .; Baptista, L.;\nMachado, J.; Realinho, V . Multi-Class\nPhased Prediction of Academic\nPerformance and Dropout in Higher\nEducation. Appl. "
+  }
+]

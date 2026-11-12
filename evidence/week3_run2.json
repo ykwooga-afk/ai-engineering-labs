@@ -1,0 +1,478 @@
+{
+  "tabular": {
+    "pipeline_version": "week3-v1",
+    "generated_at_utc": "2026-11-12T11:39:45.973891+00:00",
+    "data_type": "tabular",
+    "runtime": "Local Python (sequential notebook-cell execution)",
+    "environment": {
+      "python": "3.12.14",
+      "pandas": "2.2.3",
+      "pypdf": "6.21.4"
+    },
+    "configuration": {
+      "separator": ";",
+      "expected_rows": 4424,
+      "expected_raw_columns": [
+        "Marital status",
+        "Application mode",
+        "Application order",
+        "Course",
+        "Daytime/evening attendance\t",
+        "Previous qualification",
+        "Previous qualification (grade)",
+        "Nacionality",
+        "Mother's qualification",
+        "Father's qualification",
+        "Mother's occupation",
+        "Father's occupation",
+        "Admission grade",
+        "Displaced",
+        "Educational special needs",
+        "Debtor",
+        "Tuition fees up to date",
+        "Gender",
+        "Scholarship holder",
+        "Age at enrollment",
+        "International",
+        "Curricular units 1st sem (credited)",
+        "Curricular units 1st sem (enrolled)",
+        "Curricular units 1st sem (evaluations)",
+        "Curricular units 1st sem (approved)",
+        "Curricular units 1st sem (grade)",
+        "Curricular units 1st sem (without evaluations)",
+        "Curricular units 2nd sem (credited)",
+        "Curricular units 2nd sem (enrolled)",
+        "Curricular units 2nd sem (evaluations)",
+        "Curricular units 2nd sem (approved)",
+        "Curricular units 2nd sem (grade)",
+        "Curricular units 2nd sem (without evaluations)",
+        "Unemployment rate",
+        "Inflation rate",
+        "GDP",
+        "Target"
+      ],
+      "labels": [
+        "Dropout",
+        "Enrolled",
+        "Graduate"
+      ],
+      "T0": [
+        "Application mode",
+        "Application order",
+        "Course",
+        "Daytime/evening attendance",
+        "Previous qualification",
+        "Previous qualification (grade)",
+        "Admission grade",
+        "Age at enrollment"
+      ],
+      "T1": [
+        "Application mode",
+        "Application order",
+        "Course",
+        "Daytime/evening attendance",
+        "Previous qualification",
+        "Previous qualification (grade)",
+        "Admission grade",
+        "Age at enrollment",
+        "Curricular units 1st sem (credited)",
+        "Curricular units 1st sem (enrolled)",
+        "Curricular units 1st sem (evaluations)",
+        "Curricular units 1st sem (approved)",
+        "Curricular units 1st sem (grade)",
+        "Curricular units 1st sem (without evaluations)"
+      ],
+      "audit": [
+        "Gender",
+        "Nacionality",
+        "Age at enrollment"
+      ],
+      "excluded_timing": [
+        "Debtor",
+        "Tuition fees up to date",
+        "Scholarship holder",
+        "Unemployment rate",
+        "Inflation rate",
+        "GDP"
+      ],
+      "preparation": "trim header/text whitespace; quarantine conflicting labels and repeated exact rows",
+      "fitted_transforms": false
+    },
+    "sources": [
+      {
+        "source_id": "S01",
+        "path": "data/raw/uci_dropout.csv",
+        "sha256": "3ef126de5cefff26eb11fbb4237f1a1401cb64b488e2f1d598c23cedeb4c45ae",
+        "bytes": 533230,
+        "source_version": "UCI release retrieved 2026-11-12; identified by SHA-256",
+        "source_url": "https://doi.org/10.24432/C5MC89",
+        "attribution": "Realinho, V.; Vieira Martins, M.; Machado, J.; Baptista, L. (2021)",
+        "access_rights": "CC BY 4.0"
+      }
+    ],
+    "inspection": {
+      "rows": 4424,
+      "columns": 37,
+      "missing_cells": 0,
+      "exact_duplicate_rows": 0,
+      "class_counts": {
+        "Graduate": 2209,
+        "Dropout": 1421,
+        "Enrolled": 794
+      },
+      "prepared_rows": 4424,
+      "quarantined_rows": 0,
+      "t0_features": 8,
+      "t1_features": 14
+    },
+    "outputs": [
+      {
+        "path": "data/pipeline_v1/tabular/prepared_table.csv",
+        "sha256": "09eb6c841c15a84bb45a4abc1c679be44f273df56abd550dfa6676189ed978de",
+        "bytes": 590742
+      },
+      {
+        "path": "data/pipeline_v1/tabular/quarantined_rows.csv",
+        "sha256": "bb1d550a68145542c139d09ed497e072520f1fa1c4b4fa39d7b1a2bb1801d55d",
+        "bytes": 889
+      },
+      {
+        "path": "data/pipeline_v1/tabular/features_t0.csv",
+        "sha256": "744a7e57cfef1355aae02047b57b0a7a2d1351c0e4a3f6af7bce90ef1fe0e4b1",
+        "bytes": 188757
+      },
+      {
+        "path": "data/pipeline_v1/tabular/features_t1.csv",
+        "sha256": "4df076420d7b683229b458ba3460a2cbc1d98a0f3ffa4ca2ab1b10a76018fc94",
+        "bytes": 279501
+      },
+      {
+        "path": "data/pipeline_v1/tabular/targets.csv",
+        "sha256": "f2ca81c382134cf463ef7d3a17365f4eac6e87c04f681790aeff74f2fa2c4f1e",
+        "bytes": 100345
+      },
+      {
+        "path": "data/pipeline_v1/tabular/audit_attributes.csv",
+        "sha256": "98d84e3ed150ffa67c7522353d949e2e27544bbb0780f5ecb6cd18832c3ccfc3",
+        "bytes": 93055
+      },
+      {
+        "path": "data/pipeline_v1/tabular/feature_allowlists.json",
+        "sha256": "46247949a52fb6bd9c3a90d91f4d4b1148dca4c178f7ee1c4e5a3b9c31a572c8",
+        "bytes": 864
+      }
+    ],
+    "source_output_mapping": [
+      {
+        "source_id": "S01",
+        "source": "data/raw/uci_dropout.csv",
+        "output": "data/pipeline_v1/tabular/prepared_table.csv",
+        "row_mapping": "uci697-{one-based original data-row ordinal:06d}; fixed source hash"
+      },
+      {
+        "source_id": "S01",
+        "source": "data/raw/uci_dropout.csv",
+        "output": "data/pipeline_v1/tabular/quarantined_rows.csv",
+        "row_mapping": "uci697-{one-based original data-row ordinal:06d}; fixed source hash"
+      },
+      {
+        "source_id": "S01",
+        "source": "data/raw/uci_dropout.csv",
+        "output": "data/pipeline_v1/tabular/features_t0.csv",
+        "row_mapping": "uci697-{one-based original data-row ordinal:06d}; fixed source hash"
+      },
+      {
+        "source_id": "S01",
+        "source": "data/raw/uci_dropout.csv",
+        "output": "data/pipeline_v1/tabular/features_t1.csv",
+        "row_mapping": "uci697-{one-based original data-row ordinal:06d}; fixed source hash"
+      },
+      {
+        "source_id": "S01",
+        "source": "data/raw/uci_dropout.csv",
+        "output": "data/pipeline_v1/tabular/targets.csv",
+        "row_mapping": "uci697-{one-based original data-row ordinal:06d}; fixed source hash"
+      },
+      {
+        "source_id": "S01",
+        "source": "data/raw/uci_dropout.csv",
+        "output": "data/pipeline_v1/tabular/audit_attributes.csv",
+        "row_mapping": "uci697-{one-based original data-row ordinal:06d}; fixed source hash"
+      },
+      {
+        "source_id": "S01",
+        "source": "data/raw/uci_dropout.csv",
+        "output": "data/pipeline_v1/tabular/feature_allowlists.json",
+        "row_mapping": "uci697-{one-based original data-row ordinal:06d}; fixed source hash"
+      }
+    ],
+    "validation": {
+      "content_roundtrip": "PASS",
+      "output_count": 7
+    },
+    "warnings": [],
+    "status": "PREPARED; full quality review pending",
+    "provenance_limitations": "Hashes identify bytes; they do not prove fairness, guide claim correctness or real-time feature validity."
+  },
+  "documents": {
+    "pipeline_version": "week3-v1",
+    "generated_at_utc": "2026-11-12T11:39:48.974085+00:00",
+    "data_type": "documents",
+    "runtime": "Local Python (sequential notebook-cell execution)",
+    "environment": {
+      "python": "3.12.14",
+      "pandas": "2.2.3",
+      "pypdf": "6.21.4"
+    },
+    "configuration": {
+      "source_ids": [
+        "S02",
+        "S03"
+      ],
+      "chunk_size": 1000,
+      "method": "page-aware-paragraph-line",
+      "overlap": 0,
+      "cleaning": "minimal-clean-v1"
+    },
+    "sources": [
+      {
+        "source_id": "S02",
+        "path": "data/raw/realinho_2022.pdf",
+        "sha256": "1be95db77df7714e2b0783811c414895150c45cee6bbd8a79d6bd61b3a2185fb",
+        "bytes": 6572720,
+        "source_version": "Data 7(11), 146; unchanged Lab 2 PDF",
+        "source_url": "https://doi.org/10.3390/data7110146",
+        "attribution": "Realinho, V.; Machado, J.; Baptista, L.; Martins, M. V. (2022)",
+        "access_rights": "CC BY 4.0"
+      },
+      {
+        "source_id": "S03",
+        "path": "data/raw/martins_2023.pdf",
+        "sha256": "2f092cb9803c2ae1f3a9198f9fe3752c3f664c0f5307b2177417a8c057d4ab46",
+        "bytes": 859211,
+        "source_version": "Applied Sciences 13(8), 4702; unchanged Lab 2 PDF",
+        "source_url": "https://doi.org/10.3390/app13084702",
+        "attribution": "Martins, M. V.; Baptista, L.; Machado, J.; Realinho, V. (2023)",
+        "access_rights": "CC BY 4.0"
+      }
+    ],
+    "inspection": {
+      "documents": [
+        {
+          "source_id": "S02",
+          "pages": 17,
+          "raw_characters": 99741,
+          "chunks": 108
+        },
+        {
+          "source_id": "S03",
+          "pages": 15,
+          "raw_characters": 50591,
+          "chunks": 60
+        }
+      ],
+      "total_chunks": 168
+    },
+    "outputs": [
+      {
+        "path": "data/pipeline_v1/documents/prepared_text.jsonl",
+        "sha256": "568ca0a5296fb30feb291951f84a2321940f2133054217de5e416d3556ec50b3",
+        "bytes": 261529
+      }
+    ],
+    "source_output_mapping": [
+      {
+        "source_id": "S02",
+        "source": "data/raw/realinho_2022.pdf",
+        "output": "data/pipeline_v1/documents/prepared_text.jsonl",
+        "record_selector": {
+          "source_id": "S02"
+        },
+        "page_range": [
+          1,
+          17
+        ]
+      },
+      {
+        "source_id": "S03",
+        "source": "data/raw/martins_2023.pdf",
+        "output": "data/pipeline_v1/documents/prepared_text.jsonl",
+        "record_selector": {
+          "source_id": "S03"
+        },
+        "page_range": [
+          1,
+          15
+        ]
+      }
+    ],
+    "validation": {
+      "content_roundtrip": "PASS",
+      "output_count": 1
+    },
+    "warnings": [
+      {
+        "source_id": "S02",
+        "page": 1,
+        "warnings": [
+          "publisher_sidebar_retained"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 2,
+        "warnings": [
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 3,
+        "warnings": [
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 4,
+        "warnings": [
+          "peer_review_text_in_extraction",
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 5,
+        "warnings": [
+          "unusually_dense_extraction",
+          "peer_review_text_in_extraction",
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 6,
+        "warnings": [
+          "unusually_dense_extraction",
+          "peer_review_text_in_extraction",
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 7,
+        "warnings": [
+          "peer_review_text_in_extraction"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 8,
+        "warnings": [
+          "peer_review_text_in_extraction",
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 9,
+        "warnings": [
+          "peer_review_text_in_extraction"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 10,
+        "warnings": [
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 11,
+        "warnings": [
+          "peer_review_text_in_extraction"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 12,
+        "warnings": [
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 13,
+        "warnings": [
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 14,
+        "warnings": [
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 15,
+        "warnings": [
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "page": 16,
+        "warnings": [
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S03",
+        "page": 1,
+        "warnings": [
+          "publisher_sidebar_retained"
+        ]
+      },
+      {
+        "source_id": "S03",
+        "page": 5,
+        "warnings": [
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S03",
+        "page": 7,
+        "warnings": [
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S03",
+        "page": 8,
+        "warnings": [
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S03",
+        "page": 9,
+        "warnings": [
+          "possible_table_reading_order_loss"
+        ]
+      },
+      {
+        "source_id": "S03",
+        "page": 10,
+        "warnings": [
+          "possible_table_reading_order_loss"
+        ]
+      }
+    ],
+    "status": "PREPARED; full quality review pending",
+    "provenance_limitations": "Hashes identify bytes; they do not prove fairness, guide claim correctness or real-time feature validity."
+  }
+}

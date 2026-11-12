@@ -1,0 +1,26 @@
+{
+  "independence": [
+    {
+      "pathway": "tabular",
+      "result": "PASS",
+      "prepared_inputs_available": false
+    },
+    {
+      "pathway": "documents",
+      "result": "PASS",
+      "prepared_inputs_available": false
+    }
+  ],
+  "failure_checks": [
+    {
+      "case": "F2 empty output",
+      "result": "PASS",
+      "response": "Missing or empty saved output"
+    },
+    {
+      "case": "F1 missing input",
+      "result": "PASS",
+      "response": "S01: missing input uci_dropout.csv"
+    }
+  ]
+}

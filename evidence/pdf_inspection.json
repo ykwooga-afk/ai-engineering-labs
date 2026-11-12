@@ -1,0 +1,33 @@
+[
+  {
+    "source_id": "S02",
+    "pages": 17,
+    "extracted_characters": 99741,
+    "page_1_sample": "Citation: Realinho, V .; Machado, J.;\nBaptista, L.; Martins, M.V . Predicting\nStudent Dropout and Academic\nSuccess. Data 2022, 7, 146.\nhttps://doi.org/10.3390/\ndata7110146\nAcademic Editors: Antonio\nSarasa Cabezuelo and Ramón\nGonzález del Campo\nRodríguez Barbero\nReceived: 11 October 2022\nAccepted: 25 October 2022\nPublished: 28 October 2022\nPublisher",
+    "page_5_sample": "Data 2022, 7, 146 5 of 17\nattributes and mean for numeric attributes), the median of each attribute value, the disper-\nsion of the attribute values (the entropy of the value distribution for categorical attributes\nand coefﬁcient of variation for numeric attributes), and the minimum and maximum value\nfor numerical attributes only.\nTable 2. Basic sta",
+    "pages_over_10000_characters": [
+      5,
+      6
+    ],
+    "pages_with_peer_review_text": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11
+    ],
+    "licence_link_in_pdf": true
+  },
+  {
+    "source_id": "S03",
+    "pages": 15,
+    "extracted_characters": 50591,
+    "page_1_sample": "Citation: Martins, M.V .; Baptista, L.;\nMachado, J.; Realinho, V . Multi-Class\nPhased Prediction of Academic\nPerformance and Dropout in Higher\nEducation. Appl. Sci. 2023, 13, 4702.\nhttps://doi.org/10.3390/\napp13084702\nAcademic Editor: Giacomo Fiumara\nReceived: 17 March 2023\nRevised: 4 April 2023\nAccepted: 5 April 2023\nPublished: 8 April 2023\nCopyri",
+    "page_5_sample": "Appl. Sci. 2023, 13, 4702 5 of 15\nhave in common the demographic, social- and macro- economic information but differ in\nthe content of the academic information: a base dataset (S0), with academic information\nrestricted to the students’ path at the time of enrollment in higher education; a dataset that\nadditionally includes the information regarding",
+    "pages_over_10000_characters": [],
+    "pages_with_peer_review_text": [],
+    "licence_link_in_pdf": true
+  }
+]

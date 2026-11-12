@@ -1,0 +1,7 @@
+# Week 2 RAI2: keep real row-level data out of the public repository
+/data/raw/*.csv
+/data/processed/*.csv
+/data/pipeline_v1/tabular/*.csv
+.ipynb_checkpoints/
+__pycache__/
+*.pyc

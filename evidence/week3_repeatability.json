@@ -1,0 +1,70 @@
+{
+  "results": [
+    {
+      "pathway": "tabular",
+      "result": "PASS",
+      "compared": "source fingerprints, output fingerprints/sizes/counts, configuration, inspection and mappings",
+      "first_generated_at_utc": "2026-11-12T11:39:41.376911+00:00",
+      "second_generated_at_utc": "2026-11-12T11:39:45.973891+00:00"
+    },
+    {
+      "pathway": "documents",
+      "result": "PASS",
+      "compared": "source fingerprints, output fingerprints/sizes/counts, configuration, inspection and mappings",
+      "first_generated_at_utc": "2026-11-12T11:39:45.513494+00:00",
+      "second_generated_at_utc": "2026-11-12T11:39:48.974085+00:00"
+    }
+  ],
+  "part_b_parity": [
+    {
+      "pathway": "tabular",
+      "output": "prepared_table.csv",
+      "result": "PASS",
+      "sha256": "09eb6c841c15a84bb45a4abc1c679be44f273df56abd550dfa6676189ed978de"
+    },
+    {
+      "pathway": "tabular",
+      "output": "quarantined_rows.csv",
+      "result": "PASS",
+      "sha256": "bb1d550a68145542c139d09ed497e072520f1fa1c4b4fa39d7b1a2bb1801d55d"
+    },
+    {
+      "pathway": "tabular",
+      "output": "features_t0.csv",
+      "result": "PASS",
+      "sha256": "744a7e57cfef1355aae02047b57b0a7a2d1351c0e4a3f6af7bce90ef1fe0e4b1"
+    },
+    {
+      "pathway": "tabular",
+      "output": "features_t1.csv",
+      "result": "PASS",
+      "sha256": "4df076420d7b683229b458ba3460a2cbc1d98a0f3ffa4ca2ab1b10a76018fc94"
+    },
+    {
+      "pathway": "tabular",
+      "output": "targets.csv",
+      "result": "PASS",
+      "sha256": "f2ca81c382134cf463ef7d3a17365f4eac6e87c04f681790aeff74f2fa2c4f1e"
+    },
+    {
+      "pathway": "tabular",
+      "output": "audit_attributes.csv",
+      "result": "PASS",
+      "sha256": "98d84e3ed150ffa67c7522353d949e2e27544bbb0780f5ecb6cd18832c3ccfc3"
+    },
+    {
+      "pathway": "tabular",
+      "output": "feature_allowlists.json",
+      "result": "PASS",
+      "sha256": "46247949a52fb6bd9c3a90d91f4d4b1148dca4c178f7ee1c4e5a3b9c31a572c8"
+    },
+    {
+      "pathway": "documents",
+      "output": "prepared_text.jsonl",
+      "result": "PASS",
+      "sha256": "568ca0a5296fb30feb291951f84a2321940f2133054217de5e416d3556ec50b3"
+    }
+  ],
+  "runtime": "Local Python (sequential notebook-cell execution)",
+  "scope": "Same-environment smoke check; not model evaluation or cross-environment proof"
+}

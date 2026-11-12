@@ -4,7 +4,7 @@
 
 **Student:** Woo Yong Kang — A24AI0123  
 **Course:** SAIA3113 — AI Engineering  
-**Project stage:** Week 2 requirements, evaluation plan and conceptual architecture prepared; implementation and evaluation are planned.
+**Project stage:** Week 3 data preparation and executable V1 pipelines implemented and verified locally. Model development/evaluation remains planned; Colab execution evidence is still pending.
 
 ## Problem Statement
 
@@ -60,8 +60,8 @@ Outputs will be labelled as research estimates. SHAP explanations are not causal
 | `docs/week1_observation_sheet.md` | Group Part A observation sheet |
 | `docs/week1_system_map.png` | Group Part B system map |
 | `data/` | Source records and future data documentation |
-| `src/` | Future reusable implementation |
-| `notebooks/` | Future experiments |
+| `src/` | Reusable Week 3 data pipeline implementation |
+| `notebooks/` | Executable Week 3 notebook and future experiments |
 | `evaluation/` | Future metrics, error analysis, and evaluation evidence |
 | `prompts/` | Reserved for later course work; no LLM prompts required at this stage |
 
@@ -78,6 +78,28 @@ See the [full Week 1 project scope](docs/week1_project_scope.md).
 
 Each written part includes its reflection. All acceptance thresholds are proposed targets, not measured results. The [editable Draw.io diagram](docs/week2_architecture_v1.drawio) and [public document attribution](data/README.md) are also available.
 
+## Topic 3 Lab deliverables
+
+[Open the complete notebook in Google Colab](https://colab.research.google.com/github/ykwooga-afk/ai-engineering-labs/blob/main/notebooks/week3_pipeline.ipynb)
+
+The notebook downloads missing approved inputs and verifies their hashes. Run all cells and save the notebook to obtain Colab-specific execution evidence. No ZIP upload, Drive mount or model API key is required.
+
+| Part | Deliverable |
+|---|---|
+| A | [Data inventory and requirement traceability](docs/week3_data_inventory.md) |
+| A–C | [Notebook with actual local execution outputs](notebooks/week3_pipeline.ipynb) |
+| B | [Preparation comparisons and decisions](docs/week3_preparation_decisions.md) |
+| B | [Feature policy](docs/week3_feature_policy.csv) and [common lineage](data/week3_manifest.json) |
+| C | [Pipeline PNG](docs/week3_pipeline_diagram.png) and [editable Draw.io source](docs/week3_pipeline_diagram.drawio) |
+| C | [Pipeline decisions, stage contracts and traceability](docs/week3_pipeline_decisions.md) |
+| C | [Reusable implementation](src/week3_pipeline.py) and [configuration](data/pipeline_configuration.json) |
+| C | [Tabular run manifest](data/pipeline_v1/tabular/pipeline_manifest.json) and [document run manifest](data/pipeline_v1/documents/pipeline_manifest.json) |
+| C | [Repeatability / Part B parity](evidence/week3_repeatability.json) and [fresh-workspace / failure checks](evidence/week3_independence_and_failures.json) |
+
+**Observed results:** 4,424 prepared table rows; 8 T0 / 14 T1 predictors; 168 document chunks over 32 pages. Both branches pass repeated-run comparison and fresh-workspace execution; all 8 prepared output files match Part B. All 16 notebook code cells completed in local Python, and the Part A/B checks recorded 37 passes. This is not a model-quality, fairness or Colab-execution claim.
+
+[Data access and private-output locations](data/WEEK3_STORAGE.md) explain the publication boundary inherited from RAI2. Row-level CSVs are not committed. The public notebook displays aggregate evidence; document excerpts retain CC BY attribution and page provenance. Full working data is included in the private Week 3 submission package or can be recreated by running the notebook.
+
 ## Weekly Progress
 
 | Week | Focus | Deliverable | Status |
@@ -85,6 +107,7 @@ Each written part includes its reflection. All acceptance thresholds are propose
 | W1 | Individual project framing | Project scope, README, public source links, and directory scaffold | Prepared |
 | W1 | Group system analysis | Part A observation sheet and Part B system map | Existing group files retained in `docs/`; final group corrections remain to be checked |
 | W2 | Parts A, B and C | Requirements, evaluation criteria, V1 architecture, decisions and traceability | Prepared; targets not yet evaluated |
+| W3 | Parts A, B and C | Source inventory, prepared outputs, runnable batch pipelines, lineage, diagram and decisions | Local execution / repeatability verified; Colab platform evidence pending |
 
 ## References
 
@@ -92,4 +115,5 @@ Each written part includes its reflection. All acceptance thresholds are propose
 [2] Martins, M. V., et al. (2023). *Multi-Class Phased Prediction of Academic Performance and Dropout in Higher Education*. Applied Sciences, 13(8), 4702. https://doi.org/10.3390/app13084702  
 [3] Karimi-Haghighi, M., et al. (2021). *Predicting Early Dropout: Calibration and Algorithmic Fairness Considerations*. https://arxiv.org/abs/2103.09068  
 [4] Realinho, V., et al. (2021). *Predict Students' Dropout and Academic Success*. UCI Machine Learning Repository. https://doi.org/10.24432/C5MC89
+
 
