@@ -2,7 +2,7 @@
 
 > An offline educational prototype for academic advisors and evaluators to compare early student outcome predictions, inspect explanations, and understand their limitations.
 
-**Student:** Woo Yong Kang — A24AI0123  
+**Student:** Project author — ID omitted  
 **Course:** SAIA3113 — AI Engineering  
 **Project stage:** Week 3 data preparation and executable V1 pipelines completed, with the saved Google Colab run from 12 November 2026 now included. Model development and evaluation remain planned.
 
@@ -102,6 +102,29 @@ The notebook includes the saved Google Colab execution from 12 November 2026. To
 
 [Data access and private-output locations](data/WEEK3_STORAGE.md) explain the publication boundary inherited from RAI2. Row-level CSVs are not committed. The public notebook displays aggregate evidence; document excerpts retain CC BY attribution and page provenance. Full working data is included in the private Week 3 submission package or can be recreated by running the notebook.
 
+
+## Topic 4 — Data quality and responsible data practices
+
+[Open the quality notebook in Colab](https://colab.research.google.com/github/ykwooga-afk/ai-engineering-labs/blob/main/notebooks/week4_quality.ipynb) · [Eight-section report](docs/week4_data_quality_report.md)
+
+The same student-outcome project continues from Topic 3. The notebook adapts the existing `prepared_text.jsonl` into the course JSONL/PKL hand-off format without rewriting source text, then runs 12 Pandera rules, manual-sample review, duplicate checks, source/domain coverage and governance analysis.
+
+**Measured results:** 168 input paper chunks; 9 exact duplicate extras in 4 groups; 249 overlapping rule flags on 127 chunks; 90 retained for source-checked manual reference and 78 quarantined. All duplicate extras are inside the quarantine count. The UCI table remains 4,424 rows with 8 T0 / 14 T1 predictors; no table nulls or exact duplicate rows were found.
+
+**Quality gate: GO WITH CONDITIONS.** [Execution evidence](evidence/week4_execution.json) records the actual runtime. The public notebook is a privacy-redacted copy of a completed local Jupyter run (author name, matric number and download filename removed; code logic and numeric results unchanged); do not interpret it as a saved Colab execution. No model performance or fairness result is claimed.
+
+Core deliverables:
+- [Executed notebook](notebooks/week4_quality.ipynb)
+- [Reviewed JSONL](data/prepared_chunks_clean.jsonl) and [compatible PKL](data/chunks_clean.pkl)
+- [Quality, bias and governance report](docs/week4_data_quality_report.md)
+- [Validation flags](docs/week4_validation_failures.csv)
+- [Duplicate review](docs/week4_duplicate_review.csv)
+- [Source coverage plot](docs/week4_coverage_by_source.png)
+
+The [quarantined corpus](data/prepared_chunks_quarantine.jsonl) and supporting rule/sample/coverage CSVs preserve unresolved issues. Row-level student CSVs remain outside this public repository under RAI2.
+
+**Topic 7 / Week 9 hand-off:** use `data/prepared_chunks_clean.jsonl` and `data/chunks_clean.pkl`, not the original Topic 3 text. Retained records preserve source warnings and currently have `approved_for_automatic_retrieval=false`. Review source claims and any scope change before automated ingestion. Never index the quarantined file. V1 remains a classifier plus a manually checked reference guide.
+
 ## Weekly Progress
 
 | Week | Focus | Deliverable | Status |
@@ -111,11 +134,14 @@ The notebook includes the saved Google Colab execution from 12 November 2026. To
 | W2 | Parts A, B and C | Requirements, evaluation criteria, V1 architecture, decisions and traceability | Prepared; targets not yet evaluated |
 | W3 | Parts A, B and C | Source inventory, prepared outputs, runnable batch pipelines, lineage, diagram and decisions | Local verification and saved Colab A–C execution available; model evaluation remains planned |
 
+| W4 | Data quality, coverage, bias and governance | Executed quality notebook, controlled corpus, evidence and eight-section report | GO WITH CONDITIONS; model evaluation remains planned |
+
 ## References
 
 [1] Realinho, V., et al. (2022). *Predicting Student Dropout and Academic Success*. Data, 7(11), 146. https://doi.org/10.3390/data7110146  
 [2] Martins, M. V., et al. (2023). *Multi-Class Phased Prediction of Academic Performance and Dropout in Higher Education*. Applied Sciences, 13(8), 4702. https://doi.org/10.3390/app13084702  
 [3] Karimi-Haghighi, M., et al. (2021). *Predicting Early Dropout: Calibration and Algorithmic Fairness Considerations*. https://arxiv.org/abs/2103.09068  
 [4] Realinho, V., et al. (2021). *Predict Students' Dropout and Academic Success*. UCI Machine Learning Repository. https://doi.org/10.24432/C5MC89
+
 
 

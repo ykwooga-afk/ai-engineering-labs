@@ -1,0 +1,16 @@
+{
+  "rows": 4424,
+  "columns": 37,
+  "missing_cells": 0,
+  "exact_duplicate_rows": 0,
+  "duplicate_predictor_profiles": 0,
+  "target_counts": {
+    "Graduate": 2209,
+    "Dropout": 1421,
+    "Enrolled": 794
+  },
+  "T0_predictors": 8,
+  "T1_predictors": 14,
+  "non_portuguese_records": 110,
+  "unknown_parent_qualification_codes": 142
+}

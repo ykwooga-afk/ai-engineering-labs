@@ -1,0 +1,24 @@
+{
+  "executed_utc": "2026-11-25T15:12:34.053535+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "runtime": "Local Python",
+  "versions": {
+    "pandas": "3.1.1",
+    "pandera": "0.36.0",
+    "matplotlib": "3.11.2",
+    "langchain-core": "1.8.4"
+  },
+  "input_commit": "808330bf96c995353e46038f960e25e455474842",
+  "input_text_sha256": "568ca0a5296fb30feb291951f84a2321940f2133054217de5e416d3556ec50b3",
+  "input_table_sha256": "3ef126de5cefff26eb11fbb4237f1a1401cb64b488e2f1d598c23cedeb4c45ae",
+  "input_chunks": 168,
+  "clean_chunks": 90,
+  "quarantined_chunks": 78,
+  "duplicate_extras": 9,
+  "jsonl_pickle_text_and_metadata_equal": true,
+  "source_text_preserved": true,
+  "model_calls": 0,
+  "quality_gate": "GO WITH CONDITIONS",
+  "fairness_evaluated": false
+}

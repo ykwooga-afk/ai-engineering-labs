@@ -1,0 +1,5 @@
+grouping,group,records,dropout,non_dropout,percent
+Recorded gender,0: female,2868,720,2148,64.83
+Recorded gender,1: male,1556,701,855,35.17
+Age at enrolment,25 or older,1138,631,507,25.72
+Age at enrolment,Under 25,3286,790,2496,74.28

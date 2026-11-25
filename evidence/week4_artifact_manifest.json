@@ -1,0 +1,17 @@
+{
+  "data/prepared_chunks_clean.jsonl": "86cdae39e886b4294c19aacd0f76f9568fe9aad611f566c1af301c8c5f64c178",
+  "data/chunks_clean.pkl": "624b3eb342bf22ed1b0a5b66ac90a276965cea62f51567788745c71b2689eb7f",
+  "docs/week4_data_quality_report.md": "dcf0888149da8343a8d1446e9a5b00acad56b2552950ff01345a8e65d76e8583",
+  "docs/week4_validation_failures.csv": "ad66fa2059880965f4eb5c9259a3c50495f59885c4c4e280502fdec9ea6c0725",
+  "docs/week4_duplicate_review.csv": "f2df33789ba20f1a15365b8b9f5728e21e36adbae83129a3d016420a54f3c6bc",
+  "docs/week4_coverage_by_source.png": "02c992524dfb910802cc7a3af7b2be8dae1d579ffd383e9214a4c2c3b9f56a75",
+  "data/prepared_chunks_quarantine.jsonl": "468c1e15f5a39a84bc5ab41d4afc0b4a83db2bcae644df49d0eeda0e5698bc5f",
+  "docs/week4_pandera_failure_cases.csv": "0504a6b379b4747addac13976e4af61522aa2b5b6b4acc11c742d2464a2ab107",
+  "docs/week4_rule_summary.csv": "3772423e389fdf2153cbd575aa65ca47b1eb131882ef8667803fedd0e96dbe11",
+  "docs/week4_manual_sample.csv": "96ddd82ad9aa28d8e002afe2186ec10a6bef11b0a8aec646bc0038a3d0f23b74",
+  "docs/week4_coverage_by_source.csv": "aa18bc2f302a6f3d87f1be5110cf8cc0abeec680573a1a232052cf8a85ad25ab",
+  "docs/week4_domain_coverage.csv": "0f5002f34d2defe6689dc1f3d1cfaf2d95a3979635c29f5b467081a57d5c0053",
+  "evidence/week4_profile.json": "5de4118748146644a6c4e318c9d5b6ab24967b7de77d43424d865fb17d3a2cce",
+  "evidence/week4_table_profile.json": "304eb8d4f0ca20e3ed644835bd5108a6065b507ce2a2a80644a972fdb24b20e5",
+  "evidence/week4_execution.json": "b171de7e8152c9d028cb0b08206c31c529b76f8cd90394aa5cf73bee53360cee"
+}

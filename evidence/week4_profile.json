@@ -1,0 +1,11 @@
+{
+  "missing_text": 0,
+  "missing_source": 0,
+  "corrupted_char": 0,
+  "noisy_whitespace": 0,
+  "short_chunk": 2,
+  "extraction_risk": 78,
+  "dense_page": 55,
+  "table_order_risk": 104,
+  "publisher_sidebar": 10
+}

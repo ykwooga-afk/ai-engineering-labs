@@ -1,0 +1,10 @@
+normalized_sha256,first_record_id,duplicate_record_id,source_id,page,decision
+5472f22e2f06673da71724dc05208f7b731a90e9d54e25008aa4b02045041917,S02-1be95db77df7-p005-c001874,S02-1be95db77df7-p005-c004742,S02,5,Preserve all provenance; affected extraction page remains quarantined
+5472f22e2f06673da71724dc05208f7b731a90e9d54e25008aa4b02045041917,S02-1be95db77df7-p005-c001874,S02-1be95db77df7-p005-c007628,S02,5,Preserve all provenance; affected extraction page remains quarantined
+5472f22e2f06673da71724dc05208f7b731a90e9d54e25008aa4b02045041917,S02-1be95db77df7-p005-c001874,S02-1be95db77df7-p005-c009193,S02,5,Preserve all provenance; affected extraction page remains quarantined
+5472f22e2f06673da71724dc05208f7b731a90e9d54e25008aa4b02045041917,S02-1be95db77df7-p005-c001874,S02-1be95db77df7-p005-c012092,S02,5,Preserve all provenance; affected extraction page remains quarantined
+5472f22e2f06673da71724dc05208f7b731a90e9d54e25008aa4b02045041917,S02-1be95db77df7-p005-c001874,S02-1be95db77df7-p005-c014990,S02,5,Preserve all provenance; affected extraction page remains quarantined
+871addc0f70925357bf9d6a1a9e5b2d4c102416d13d2430c3198d757a3df9dd5,S02-1be95db77df7-p005-c017934,S02-1be95db77df7-p006-c004704,S02,6,Preserve all provenance; affected extraction page remains quarantined
+871addc0f70925357bf9d6a1a9e5b2d4c102416d13d2430c3198d757a3df9dd5,S02-1be95db77df7-p005-c017934,S02-1be95db77df7-p006-c009415,S02,6,Preserve all provenance; affected extraction page remains quarantined
+f7dabe0dfc401cbb3b32f904d12651879dee92bc12f5f3b525db92ad787a014c,S02-1be95db77df7-p006-c012341,S02-1be95db77df7-p006-c022412,S02,6,Preserve all provenance; affected extraction page remains quarantined
+ac1e40065abfd5fafa26e757e13090ed61a6996b24c6af603c241eab40fa5034,S02-1be95db77df7-p006-c016187,S02-1be95db77df7-p006-c026219,S02,6,Preserve all provenance; affected extraction page remains quarantined

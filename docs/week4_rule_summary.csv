@@ -1,0 +1,13 @@
+rule,field,condition,failures,percent,action,reason
+R1,missing_text,Nonblank text,0,0.0,Hard fail,Empty evidence cannot support FR5.
+R2,missing_source,Nonblank source,0,0.0,Hard fail,A passage must be traceable.
+R3,corrupted_char,No NUL or U+FFFD,0,0.0,Quarantine,"These characters indicate damaged extraction, not all possible corruption."
+R4,provenance_ok,"Hash, URL, version and licence equal source registry",0,0.0,Hard fail,Prevents source/version drift.
+R5,page_ok,Page in source-specific range: S02 1–17; S03 1–15,0,0.0,Hard fail,Supports page-level verification.
+R6,span_ok,Original end minus start equals original text length,0,0.0,Hard fail,Protects inherited source offsets.
+R7,short_chunk,At least 100 characters,2,1.19,Review,A screening threshold for boundary fragments; not proof that short text is wrong.
+R8,extraction_risk,No inherited peer-review extraction warning,78,46.43,Quarantine pending re-extraction,Known affected pages have unreliable reading order; apply a conservative page-level hold.
+R9,table_order_risk,No inherited table reading-order warning,104,61.9,Review,Linear text can lose table relationships even when valid Unicode.
+R10,publisher_sidebar,No inherited publisher sidebar warning,10,5.95,Review,Front matter can displace task-relevant evidence.
+R11,noisy_whitespace,No run of four spaces or four newlines,0,0.0,Review,Detects gross whitespace noise only.
+R12,dense_page,No inherited dense-extraction warning,55,32.74,Review,"Unusual page volume is a warning, not an independent deletion rule."

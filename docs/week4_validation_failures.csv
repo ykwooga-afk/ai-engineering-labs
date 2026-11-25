@@ -1,0 +1,250 @@
+rule,chunk_id,record_id,source_id,page,condition,action,observed
+R7,84,S02-1be95db77df7-p009-c001873,S02,9,At least 100 characters,Review,True
+R7,142,S03-2f092cb9803c-p008-c002823,S03,8,At least 100 characters,Review,True
+R8,12,S02-1be95db77df7-p004-c000000,S02,4,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,13,S02-1be95db77df7-p004-c000842,S02,4,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,14,S02-1be95db77df7-p004-c001772,S02,4,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,15,S02-1be95db77df7-p004-c002740,S02,4,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,16,S02-1be95db77df7-p004-c003724,S02,4,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,17,S02-1be95db77df7-p004-c004692,S02,4,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,18,S02-1be95db77df7-p004-c005691,S02,4,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,19,S02-1be95db77df7-p005-c000000,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,20,S02-1be95db77df7-p005-c000952,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,21,S02-1be95db77df7-p005-c001874,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,22,S02-1be95db77df7-p005-c002867,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,23,S02-1be95db77df7-p005-c003825,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,24,S02-1be95db77df7-p005-c004742,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,25,S02-1be95db77df7-p005-c005735,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,26,S02-1be95db77df7-p005-c006700,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,27,S02-1be95db77df7-p005-c007628,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,28,S02-1be95db77df7-p005-c008621,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,29,S02-1be95db77df7-p005-c009193,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,30,S02-1be95db77df7-p005-c010186,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,31,S02-1be95db77df7-p005-c011159,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,32,S02-1be95db77df7-p005-c012092,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,33,S02-1be95db77df7-p005-c013085,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,34,S02-1be95db77df7-p005-c014053,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,35,S02-1be95db77df7-p005-c014990,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,36,S02-1be95db77df7-p005-c015983,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,37,S02-1be95db77df7-p005-c016937,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,38,S02-1be95db77df7-p005-c017934,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,39,S02-1be95db77df7-p005-c018924,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,40,S02-1be95db77df7-p005-c019880,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,41,S02-1be95db77df7-p005-c020868,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,42,S02-1be95db77df7-p005-c021849,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,43,S02-1be95db77df7-p005-c022794,S02,5,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,44,S02-1be95db77df7-p006-c000000,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,45,S02-1be95db77df7-p006-c000972,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,46,S02-1be95db77df7-p006-c001900,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,47,S02-1be95db77df7-p006-c002896,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,48,S02-1be95db77df7-p006-c003815,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,49,S02-1be95db77df7-p006-c004704,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,50,S02-1be95db77df7-p006-c005694,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,51,S02-1be95db77df7-p006-c006556,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,52,S02-1be95db77df7-p006-c007544,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,53,S02-1be95db77df7-p006-c008512,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,54,S02-1be95db77df7-p006-c009415,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,55,S02-1be95db77df7-p006-c010405,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,56,S02-1be95db77df7-p006-c011376,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,57,S02-1be95db77df7-p006-c012341,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,58,S02-1be95db77df7-p006-c013258,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,59,S02-1be95db77df7-p006-c014254,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,60,S02-1be95db77df7-p006-c015218,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,61,S02-1be95db77df7-p006-c016187,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,62,S02-1be95db77df7-p006-c017117,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,63,S02-1be95db77df7-p006-c018061,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,64,S02-1be95db77df7-p006-c019016,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,65,S02-1be95db77df7-p006-c019991,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,66,S02-1be95db77df7-p006-c020912,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,67,S02-1be95db77df7-p006-c021777,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,68,S02-1be95db77df7-p006-c022412,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,69,S02-1be95db77df7-p006-c023329,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,70,S02-1be95db77df7-p006-c024290,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,71,S02-1be95db77df7-p006-c025256,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,72,S02-1be95db77df7-p006-c026219,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,73,S02-1be95db77df7-p006-c027149,S02,6,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,74,S02-1be95db77df7-p007-c000000,S02,7,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,75,S02-1be95db77df7-p007-c000977,S02,7,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,76,S02-1be95db77df7-p007-c001947,S02,7,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,77,S02-1be95db77df7-p007-c002476,S02,7,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,78,S02-1be95db77df7-p007-c003469,S02,7,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,79,S02-1be95db77df7-p008-c000000,S02,8,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,80,S02-1be95db77df7-p008-c000988,S02,8,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,81,S02-1be95db77df7-p008-c001964,S02,8,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,82,S02-1be95db77df7-p009-c000000,S02,9,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,83,S02-1be95db77df7-p009-c000932,S02,9,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,84,S02-1be95db77df7-p009-c001873,S02,9,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,88,S02-1be95db77df7-p011-c000000,S02,11,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,89,S02-1be95db77df7-p011-c000964,S02,11,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,90,S02-1be95db77df7-p011-c001885,S02,11,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,91,S02-1be95db77df7-p011-c002815,S02,11,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R8,92,S02-1be95db77df7-p011-c003755,S02,11,No inherited peer-review extraction warning,Quarantine pending re-extraction,True
+R9,5,S02-1be95db77df7-p002-c000000,S02,2,No inherited table reading-order warning,Review,True
+R9,6,S02-1be95db77df7-p002-c000995,S02,2,No inherited table reading-order warning,Review,True
+R9,7,S02-1be95db77df7-p002-c001994,S02,2,No inherited table reading-order warning,Review,True
+R9,8,S02-1be95db77df7-p002-c002973,S02,2,No inherited table reading-order warning,Review,True
+R9,9,S02-1be95db77df7-p003-c000000,S02,3,No inherited table reading-order warning,Review,True
+R9,10,S02-1be95db77df7-p003-c000997,S02,3,No inherited table reading-order warning,Review,True
+R9,11,S02-1be95db77df7-p003-c001963,S02,3,No inherited table reading-order warning,Review,True
+R9,12,S02-1be95db77df7-p004-c000000,S02,4,No inherited table reading-order warning,Review,True
+R9,13,S02-1be95db77df7-p004-c000842,S02,4,No inherited table reading-order warning,Review,True
+R9,14,S02-1be95db77df7-p004-c001772,S02,4,No inherited table reading-order warning,Review,True
+R9,15,S02-1be95db77df7-p004-c002740,S02,4,No inherited table reading-order warning,Review,True
+R9,16,S02-1be95db77df7-p004-c003724,S02,4,No inherited table reading-order warning,Review,True
+R9,17,S02-1be95db77df7-p004-c004692,S02,4,No inherited table reading-order warning,Review,True
+R9,18,S02-1be95db77df7-p004-c005691,S02,4,No inherited table reading-order warning,Review,True
+R9,19,S02-1be95db77df7-p005-c000000,S02,5,No inherited table reading-order warning,Review,True
+R9,20,S02-1be95db77df7-p005-c000952,S02,5,No inherited table reading-order warning,Review,True
+R9,21,S02-1be95db77df7-p005-c001874,S02,5,No inherited table reading-order warning,Review,True
+R9,22,S02-1be95db77df7-p005-c002867,S02,5,No inherited table reading-order warning,Review,True
+R9,23,S02-1be95db77df7-p005-c003825,S02,5,No inherited table reading-order warning,Review,True
+R9,24,S02-1be95db77df7-p005-c004742,S02,5,No inherited table reading-order warning,Review,True
+R9,25,S02-1be95db77df7-p005-c005735,S02,5,No inherited table reading-order warning,Review,True
+R9,26,S02-1be95db77df7-p005-c006700,S02,5,No inherited table reading-order warning,Review,True
+R9,27,S02-1be95db77df7-p005-c007628,S02,5,No inherited table reading-order warning,Review,True
+R9,28,S02-1be95db77df7-p005-c008621,S02,5,No inherited table reading-order warning,Review,True
+R9,29,S02-1be95db77df7-p005-c009193,S02,5,No inherited table reading-order warning,Review,True
+R9,30,S02-1be95db77df7-p005-c010186,S02,5,No inherited table reading-order warning,Review,True
+R9,31,S02-1be95db77df7-p005-c011159,S02,5,No inherited table reading-order warning,Review,True
+R9,32,S02-1be95db77df7-p005-c012092,S02,5,No inherited table reading-order warning,Review,True
+R9,33,S02-1be95db77df7-p005-c013085,S02,5,No inherited table reading-order warning,Review,True
+R9,34,S02-1be95db77df7-p005-c014053,S02,5,No inherited table reading-order warning,Review,True
+R9,35,S02-1be95db77df7-p005-c014990,S02,5,No inherited table reading-order warning,Review,True
+R9,36,S02-1be95db77df7-p005-c015983,S02,5,No inherited table reading-order warning,Review,True
+R9,37,S02-1be95db77df7-p005-c016937,S02,5,No inherited table reading-order warning,Review,True
+R9,38,S02-1be95db77df7-p005-c017934,S02,5,No inherited table reading-order warning,Review,True
+R9,39,S02-1be95db77df7-p005-c018924,S02,5,No inherited table reading-order warning,Review,True
+R9,40,S02-1be95db77df7-p005-c019880,S02,5,No inherited table reading-order warning,Review,True
+R9,41,S02-1be95db77df7-p005-c020868,S02,5,No inherited table reading-order warning,Review,True
+R9,42,S02-1be95db77df7-p005-c021849,S02,5,No inherited table reading-order warning,Review,True
+R9,43,S02-1be95db77df7-p005-c022794,S02,5,No inherited table reading-order warning,Review,True
+R9,44,S02-1be95db77df7-p006-c000000,S02,6,No inherited table reading-order warning,Review,True
+R9,45,S02-1be95db77df7-p006-c000972,S02,6,No inherited table reading-order warning,Review,True
+R9,46,S02-1be95db77df7-p006-c001900,S02,6,No inherited table reading-order warning,Review,True
+R9,47,S02-1be95db77df7-p006-c002896,S02,6,No inherited table reading-order warning,Review,True
+R9,48,S02-1be95db77df7-p006-c003815,S02,6,No inherited table reading-order warning,Review,True
+R9,49,S02-1be95db77df7-p006-c004704,S02,6,No inherited table reading-order warning,Review,True
+R9,50,S02-1be95db77df7-p006-c005694,S02,6,No inherited table reading-order warning,Review,True
+R9,51,S02-1be95db77df7-p006-c006556,S02,6,No inherited table reading-order warning,Review,True
+R9,52,S02-1be95db77df7-p006-c007544,S02,6,No inherited table reading-order warning,Review,True
+R9,53,S02-1be95db77df7-p006-c008512,S02,6,No inherited table reading-order warning,Review,True
+R9,54,S02-1be95db77df7-p006-c009415,S02,6,No inherited table reading-order warning,Review,True
+R9,55,S02-1be95db77df7-p006-c010405,S02,6,No inherited table reading-order warning,Review,True
+R9,56,S02-1be95db77df7-p006-c011376,S02,6,No inherited table reading-order warning,Review,True
+R9,57,S02-1be95db77df7-p006-c012341,S02,6,No inherited table reading-order warning,Review,True
+R9,58,S02-1be95db77df7-p006-c013258,S02,6,No inherited table reading-order warning,Review,True
+R9,59,S02-1be95db77df7-p006-c014254,S02,6,No inherited table reading-order warning,Review,True
+R9,60,S02-1be95db77df7-p006-c015218,S02,6,No inherited table reading-order warning,Review,True
+R9,61,S02-1be95db77df7-p006-c016187,S02,6,No inherited table reading-order warning,Review,True
+R9,62,S02-1be95db77df7-p006-c017117,S02,6,No inherited table reading-order warning,Review,True
+R9,63,S02-1be95db77df7-p006-c018061,S02,6,No inherited table reading-order warning,Review,True
+R9,64,S02-1be95db77df7-p006-c019016,S02,6,No inherited table reading-order warning,Review,True
+R9,65,S02-1be95db77df7-p006-c019991,S02,6,No inherited table reading-order warning,Review,True
+R9,66,S02-1be95db77df7-p006-c020912,S02,6,No inherited table reading-order warning,Review,True
+R9,67,S02-1be95db77df7-p006-c021777,S02,6,No inherited table reading-order warning,Review,True
+R9,68,S02-1be95db77df7-p006-c022412,S02,6,No inherited table reading-order warning,Review,True
+R9,69,S02-1be95db77df7-p006-c023329,S02,6,No inherited table reading-order warning,Review,True
+R9,70,S02-1be95db77df7-p006-c024290,S02,6,No inherited table reading-order warning,Review,True
+R9,71,S02-1be95db77df7-p006-c025256,S02,6,No inherited table reading-order warning,Review,True
+R9,72,S02-1be95db77df7-p006-c026219,S02,6,No inherited table reading-order warning,Review,True
+R9,73,S02-1be95db77df7-p006-c027149,S02,6,No inherited table reading-order warning,Review,True
+R9,79,S02-1be95db77df7-p008-c000000,S02,8,No inherited table reading-order warning,Review,True
+R9,80,S02-1be95db77df7-p008-c000988,S02,8,No inherited table reading-order warning,Review,True
+R9,81,S02-1be95db77df7-p008-c001964,S02,8,No inherited table reading-order warning,Review,True
+R9,85,S02-1be95db77df7-p010-c000000,S02,10,No inherited table reading-order warning,Review,True
+R9,86,S02-1be95db77df7-p010-c000957,S02,10,No inherited table reading-order warning,Review,True
+R9,87,S02-1be95db77df7-p010-c001873,S02,10,No inherited table reading-order warning,Review,True
+R9,93,S02-1be95db77df7-p012-c000000,S02,12,No inherited table reading-order warning,Review,True
+R9,94,S02-1be95db77df7-p012-c000991,S02,12,No inherited table reading-order warning,Review,True
+R9,95,S02-1be95db77df7-p013-c000000,S02,13,No inherited table reading-order warning,Review,True
+R9,96,S02-1be95db77df7-p013-c000999,S02,13,No inherited table reading-order warning,Review,True
+R9,97,S02-1be95db77df7-p014-c000000,S02,14,No inherited table reading-order warning,Review,True
+R9,98,S02-1be95db77df7-p014-c000968,S02,14,No inherited table reading-order warning,Review,True
+R9,99,S02-1be95db77df7-p015-c000000,S02,15,No inherited table reading-order warning,Review,True
+R9,100,S02-1be95db77df7-p015-c000997,S02,15,No inherited table reading-order warning,Review,True
+R9,101,S02-1be95db77df7-p015-c001997,S02,15,No inherited table reading-order warning,Review,True
+R9,102,S02-1be95db77df7-p016-c000000,S02,16,No inherited table reading-order warning,Review,True
+R9,103,S02-1be95db77df7-p016-c000915,S02,16,No inherited table reading-order warning,Review,True
+R9,104,S02-1be95db77df7-p016-c001815,S02,16,No inherited table reading-order warning,Review,True
+R9,105,S02-1be95db77df7-p016-c002730,S02,16,No inherited table reading-order warning,Review,True
+R9,128,S03-2f092cb9803c-p005-c000000,S03,5,No inherited table reading-order warning,Review,True
+R9,129,S03-2f092cb9803c-p005-c000984,S03,5,No inherited table reading-order warning,Review,True
+R9,130,S03-2f092cb9803c-p005-c001958,S03,5,No inherited table reading-order warning,Review,True
+R9,135,S03-2f092cb9803c-p007-c000000,S03,7,No inherited table reading-order warning,Review,True
+R9,136,S03-2f092cb9803c-p007-c000951,S03,7,No inherited table reading-order warning,Review,True
+R9,137,S03-2f092cb9803c-p007-c001901,S03,7,No inherited table reading-order warning,Review,True
+R9,138,S03-2f092cb9803c-p007-c002859,S03,7,No inherited table reading-order warning,Review,True
+R9,139,S03-2f092cb9803c-p008-c000000,S03,8,No inherited table reading-order warning,Review,True
+R9,140,S03-2f092cb9803c-p008-c000979,S03,8,No inherited table reading-order warning,Review,True
+R9,141,S03-2f092cb9803c-p008-c001906,S03,8,No inherited table reading-order warning,Review,True
+R9,142,S03-2f092cb9803c-p008-c002823,S03,8,No inherited table reading-order warning,Review,True
+R9,143,S03-2f092cb9803c-p009-c000000,S03,9,No inherited table reading-order warning,Review,True
+R9,144,S03-2f092cb9803c-p009-c000946,S03,9,No inherited table reading-order warning,Review,True
+R9,145,S03-2f092cb9803c-p009-c001916,S03,9,No inherited table reading-order warning,Review,True
+R9,146,S03-2f092cb9803c-p010-c000000,S03,10,No inherited table reading-order warning,Review,True
+R9,147,S03-2f092cb9803c-p010-c000963,S03,10,No inherited table reading-order warning,Review,True
+R10,0,S02-1be95db77df7-p001-c000000,S02,1,No inherited publisher sidebar warning,Review,True
+R10,1,S02-1be95db77df7-p001-c000975,S02,1,No inherited publisher sidebar warning,Review,True
+R10,2,S02-1be95db77df7-p001-c001935,S02,1,No inherited publisher sidebar warning,Review,True
+R10,3,S02-1be95db77df7-p001-c002863,S02,1,No inherited publisher sidebar warning,Review,True
+R10,4,S02-1be95db77df7-p001-c003841,S02,1,No inherited publisher sidebar warning,Review,True
+R10,108,S03-2f092cb9803c-p001-c000000,S03,1,No inherited publisher sidebar warning,Review,True
+R10,109,S03-2f092cb9803c-p001-c000925,S03,1,No inherited publisher sidebar warning,Review,True
+R10,110,S03-2f092cb9803c-p001-c001843,S03,1,No inherited publisher sidebar warning,Review,True
+R10,111,S03-2f092cb9803c-p001-c002761,S03,1,No inherited publisher sidebar warning,Review,True
+R10,112,S03-2f092cb9803c-p001-c003700,S03,1,No inherited publisher sidebar warning,Review,True
+R12,19,S02-1be95db77df7-p005-c000000,S02,5,No inherited dense-extraction warning,Review,True
+R12,20,S02-1be95db77df7-p005-c000952,S02,5,No inherited dense-extraction warning,Review,True
+R12,21,S02-1be95db77df7-p005-c001874,S02,5,No inherited dense-extraction warning,Review,True
+R12,22,S02-1be95db77df7-p005-c002867,S02,5,No inherited dense-extraction warning,Review,True
+R12,23,S02-1be95db77df7-p005-c003825,S02,5,No inherited dense-extraction warning,Review,True
+R12,24,S02-1be95db77df7-p005-c004742,S02,5,No inherited dense-extraction warning,Review,True
+R12,25,S02-1be95db77df7-p005-c005735,S02,5,No inherited dense-extraction warning,Review,True
+R12,26,S02-1be95db77df7-p005-c006700,S02,5,No inherited dense-extraction warning,Review,True
+R12,27,S02-1be95db77df7-p005-c007628,S02,5,No inherited dense-extraction warning,Review,True
+R12,28,S02-1be95db77df7-p005-c008621,S02,5,No inherited dense-extraction warning,Review,True
+R12,29,S02-1be95db77df7-p005-c009193,S02,5,No inherited dense-extraction warning,Review,True
+R12,30,S02-1be95db77df7-p005-c010186,S02,5,No inherited dense-extraction warning,Review,True
+R12,31,S02-1be95db77df7-p005-c011159,S02,5,No inherited dense-extraction warning,Review,True
+R12,32,S02-1be95db77df7-p005-c012092,S02,5,No inherited dense-extraction warning,Review,True
+R12,33,S02-1be95db77df7-p005-c013085,S02,5,No inherited dense-extraction warning,Review,True
+R12,34,S02-1be95db77df7-p005-c014053,S02,5,No inherited dense-extraction warning,Review,True
+R12,35,S02-1be95db77df7-p005-c014990,S02,5,No inherited dense-extraction warning,Review,True
+R12,36,S02-1be95db77df7-p005-c015983,S02,5,No inherited dense-extraction warning,Review,True
+R12,37,S02-1be95db77df7-p005-c016937,S02,5,No inherited dense-extraction warning,Review,True
+R12,38,S02-1be95db77df7-p005-c017934,S02,5,No inherited dense-extraction warning,Review,True
+R12,39,S02-1be95db77df7-p005-c018924,S02,5,No inherited dense-extraction warning,Review,True
+R12,40,S02-1be95db77df7-p005-c019880,S02,5,No inherited dense-extraction warning,Review,True
+R12,41,S02-1be95db77df7-p005-c020868,S02,5,No inherited dense-extraction warning,Review,True
+R12,42,S02-1be95db77df7-p005-c021849,S02,5,No inherited dense-extraction warning,Review,True
+R12,43,S02-1be95db77df7-p005-c022794,S02,5,No inherited dense-extraction warning,Review,True
+R12,44,S02-1be95db77df7-p006-c000000,S02,6,No inherited dense-extraction warning,Review,True
+R12,45,S02-1be95db77df7-p006-c000972,S02,6,No inherited dense-extraction warning,Review,True
+R12,46,S02-1be95db77df7-p006-c001900,S02,6,No inherited dense-extraction warning,Review,True
+R12,47,S02-1be95db77df7-p006-c002896,S02,6,No inherited dense-extraction warning,Review,True
+R12,48,S02-1be95db77df7-p006-c003815,S02,6,No inherited dense-extraction warning,Review,True
+R12,49,S02-1be95db77df7-p006-c004704,S02,6,No inherited dense-extraction warning,Review,True
+R12,50,S02-1be95db77df7-p006-c005694,S02,6,No inherited dense-extraction warning,Review,True
+R12,51,S02-1be95db77df7-p006-c006556,S02,6,No inherited dense-extraction warning,Review,True
+R12,52,S02-1be95db77df7-p006-c007544,S02,6,No inherited dense-extraction warning,Review,True
+R12,53,S02-1be95db77df7-p006-c008512,S02,6,No inherited dense-extraction warning,Review,True
+R12,54,S02-1be95db77df7-p006-c009415,S02,6,No inherited dense-extraction warning,Review,True
+R12,55,S02-1be95db77df7-p006-c010405,S02,6,No inherited dense-extraction warning,Review,True
+R12,56,S02-1be95db77df7-p006-c011376,S02,6,No inherited dense-extraction warning,Review,True
+R12,57,S02-1be95db77df7-p006-c012341,S02,6,No inherited dense-extraction warning,Review,True
+R12,58,S02-1be95db77df7-p006-c013258,S02,6,No inherited dense-extraction warning,Review,True
+R12,59,S02-1be95db77df7-p006-c014254,S02,6,No inherited dense-extraction warning,Review,True
+R12,60,S02-1be95db77df7-p006-c015218,S02,6,No inherited dense-extraction warning,Review,True
+R12,61,S02-1be95db77df7-p006-c016187,S02,6,No inherited dense-extraction warning,Review,True
+R12,62,S02-1be95db77df7-p006-c017117,S02,6,No inherited dense-extraction warning,Review,True
+R12,63,S02-1be95db77df7-p006-c018061,S02,6,No inherited dense-extraction warning,Review,True
+R12,64,S02-1be95db77df7-p006-c019016,S02,6,No inherited dense-extraction warning,Review,True
+R12,65,S02-1be95db77df7-p006-c019991,S02,6,No inherited dense-extraction warning,Review,True
+R12,66,S02-1be95db77df7-p006-c020912,S02,6,No inherited dense-extraction warning,Review,True
+R12,67,S02-1be95db77df7-p006-c021777,S02,6,No inherited dense-extraction warning,Review,True
+R12,68,S02-1be95db77df7-p006-c022412,S02,6,No inherited dense-extraction warning,Review,True
+R12,69,S02-1be95db77df7-p006-c023329,S02,6,No inherited dense-extraction warning,Review,True
+R12,70,S02-1be95db77df7-p006-c024290,S02,6,No inherited dense-extraction warning,Review,True
+R12,71,S02-1be95db77df7-p006-c025256,S02,6,No inherited dense-extraction warning,Review,True
+R12,72,S02-1be95db77df7-p006-c026219,S02,6,No inherited dense-extraction warning,Review,True
+R12,73,S02-1be95db77df7-p006-c027149,S02,6,No inherited dense-extraction warning,Review,True
