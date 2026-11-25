@@ -111,7 +111,7 @@ The same student-outcome project continues from Topic 3. The notebook adapts the
 
 **Measured results:** 168 input paper chunks; 9 exact duplicate extras in 4 groups; 249 overlapping rule flags on 127 chunks; 90 retained for source-checked manual reference and 78 quarantined. All duplicate extras are inside the quarantine count. The UCI table remains 4,424 rows with 8 T0 / 14 T1 predictors; no table nulls or exact duplicate rows were found.
 
-**Quality gate: GO WITH CONDITIONS.** [Execution evidence](evidence/week4_execution.json) records the actual runtime. The public notebook is a privacy-redacted copy of a completed local Jupyter run (author name, matric number and download filename removed; code logic and numeric results unchanged); do not interpret it as a saved Colab execution. No model performance or fairness result is claimed.
+**Quality gate: GO WITH CONDITIONS.** [Execution evidence](evidence/week4_execution.json) records the actual runtime. The public notebook is a privacy-redacted copy of a completed local Jupyter run (author name, matric number and download filename removed; code logic and numeric results unchanged); do not interpret it as a saved Colab execution. A separate [Colab UI verification record](evidence/week4_colab_observation.json) confirms all 12 cells also completed in Colab with matching counts on 25 November 2026. That record is observed UI evidence; the saved notebook and standalone files retain their local-run provenance. No model performance or fairness result is claimed.
 
 Core deliverables:
 - [Executed notebook](notebooks/week4_quality.ipynb)

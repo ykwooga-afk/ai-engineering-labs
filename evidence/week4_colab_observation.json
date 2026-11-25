@@ -1,0 +1,29 @@
+{
+  "evidence_type": "Observed Colab UI output; not a downloaded cloud notebook or cloud artifact export",
+  "notebook_url": "https://colab.research.google.com/github/ykwooga-afk/ai-engineering-labs/blob/main/notebooks/week4_quality.ipynb",
+  "notebook_repository_commit_at_run": "e711dbe4125a974a6f514c8a49534f7893a51c19",
+  "observed_execution_numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+  "python_traceback_visible": false,
+  "final_artifact_verification_message_visible": true,
+  "saved_submission_notebook_runtime": "Local Jupyter; separately rerun and verified in Colab",
+  "cloud_notebook_export_retrieved": false,
+  "observed_runtime_output": {
+    "executed_utc": "2026-11-25T15:20:04.237274+00:00",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "python": "3.13.18",
+    "runtime": "Google Colab",
+    "versions": {"pandas": "3.1.1", "pandera": "0.36.0", "matplotlib": "3.11.2", "langchain-core": "1.8.4"},
+    "input_commit": "808330bf96c995353e46038f960e25e455474842",
+    "input_text_sha256": "568ca0a5296fb30feb291951f84a2321940f2133054217de5e416d3556ec50b3",
+    "input_table_sha256": "3ef126de5cefff26eb11fbb4237f1a1401cb64b488e2f1d598c23cedeb4c45ae",
+    "input_chunks": 168,
+    "clean_chunks": 90,
+    "quarantined_chunks": 78,
+    "duplicate_extras": 9,
+    "jsonl_pickle_text_and_metadata_equal": true,
+    "source_text_preserved": true,
+    "model_calls": 0,
+    "quality_gate": "GO WITH CONDITIONS",
+    "fairness_evaluated": false
+  }
+}
