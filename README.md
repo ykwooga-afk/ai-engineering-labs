@@ -4,7 +4,7 @@
 
 **Student:** Woo Yong Kang — A24AI0123  
 **Course:** SAIA3113 — AI Engineering  
-**Project stage:** Week 3 data preparation and executable V1 pipelines implemented and verified locally. Model development/evaluation remains planned; Colab execution evidence is still pending.
+**Project stage:** Week 3 data preparation and executable V1 pipelines completed, with the saved Google Colab run from 12 November 2026 now included. Model development and evaluation remain planned.
 
 ## Problem Statement
 
@@ -82,12 +82,12 @@ Each written part includes its reflection. All acceptance thresholds are propose
 
 [Open the complete notebook in Google Colab](https://colab.research.google.com/github/ykwooga-afk/ai-engineering-labs/blob/main/notebooks/week3_pipeline.ipynb)
 
-The notebook downloads missing approved inputs and verifies their hashes. Run all cells and save the notebook to obtain Colab-specific execution evidence. No ZIP upload, Drive mount or model API key is required.
+The notebook includes the saved Google Colab execution from 12 November 2026. To reproduce it, open the notebook, run all cells and save your new run. Missing approved inputs are downloaded and checked against their hashes. No ZIP upload, Drive mount or model API key is required.
 
 | Part | Deliverable |
 |---|---|
 | A | [Data inventory and requirement traceability](docs/week3_data_inventory.md) |
-| A–C | [Notebook with actual local execution outputs](notebooks/week3_pipeline.ipynb) |
+| A–C | [Notebook with saved Google Colab execution outputs](notebooks/week3_pipeline.ipynb) |
 | B | [Preparation comparisons and decisions](docs/week3_preparation_decisions.md) |
 | B | [Feature policy](docs/week3_feature_policy.csv) and [common lineage](data/week3_manifest.json) |
 | C | [Pipeline PNG](docs/week3_pipeline_diagram.png) and [editable Draw.io source](docs/week3_pipeline_diagram.drawio) |
@@ -96,7 +96,9 @@ The notebook downloads missing approved inputs and verifies their hashes. Run al
 | C | [Tabular run manifest](data/pipeline_v1/tabular/pipeline_manifest.json) and [document run manifest](data/pipeline_v1/documents/pipeline_manifest.json) |
 | C | [Repeatability / Part B parity](evidence/week3_repeatability.json) and [fresh-workspace / failure checks](evidence/week3_independence_and_failures.json) |
 
-**Observed results:** 4,424 prepared table rows; 8 T0 / 14 T1 predictors; 168 document chunks over 32 pages. Both branches pass repeated-run comparison and fresh-workspace execution; all 8 prepared output files match Part B. All 16 notebook code cells completed in local Python, and the Part A/B checks recorded 37 passes. This is not a model-quality, fairness or Colab-execution claim.
+**Observed results:** 4,424 prepared table rows; 8 T0 / 14 T1 predictors; 168 document chunks over 32 pages. Both branches pass repeated-run comparison and fresh-workspace execution; all 8 prepared output files match Part B. All 16 notebook code cells completed in the saved Google Colab run without error outputs, and the Part A/B checks recorded 37 passes. This is preparation and execution evidence, not a model-quality or fairness result.
+
+**Execution provenance:** [Colab verification record](evidence/colab_execution_verification.json) identifies the exact saved notebook by SHA-256 and records Python 3.13.18, pandas 2.2.3 and pypdf 6.21.4. The notebook code and Markdown are unchanged from the earlier repository version. Existing standalone manifests, prepared files and earlier JSON execution records retain their original local-run provenance; they were not exported from the later Colab runtime. The Colab-specific evidence is the notebook's saved outputs and the verification record.
 
 [Data access and private-output locations](data/WEEK3_STORAGE.md) explain the publication boundary inherited from RAI2. Row-level CSVs are not committed. The public notebook displays aggregate evidence; document excerpts retain CC BY attribution and page provenance. Full working data is included in the private Week 3 submission package or can be recreated by running the notebook.
 
@@ -107,7 +109,7 @@ The notebook downloads missing approved inputs and verifies their hashes. Run al
 | W1 | Individual project framing | Project scope, README, public source links, and directory scaffold | Prepared |
 | W1 | Group system analysis | Part A observation sheet and Part B system map | Existing group files retained in `docs/`; final group corrections remain to be checked |
 | W2 | Parts A, B and C | Requirements, evaluation criteria, V1 architecture, decisions and traceability | Prepared; targets not yet evaluated |
-| W3 | Parts A, B and C | Source inventory, prepared outputs, runnable batch pipelines, lineage, diagram and decisions | Local execution / repeatability verified; Colab platform evidence pending |
+| W3 | Parts A, B and C | Source inventory, prepared outputs, runnable batch pipelines, lineage, diagram and decisions | Local verification and saved Colab A–C execution available; model evaluation remains planned |
 
 ## References
 

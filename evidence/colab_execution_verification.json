@@ -1,0 +1,18 @@
+{
+  "source": "User-uploaded original Colab notebook; saved outputs inspected",
+  "notebook_sha256": "70804a2316ac9141e78cd2add45c7711ef1b6ebfaeffdaee8a90e2ea4310ce5f",
+  "environment": {
+    "runtime": "Google Colab",
+    "python": "3.13.18",
+    "pandas": "2.2.3",
+    "pypdf": "6.21.4",
+    "executed_at_utc": "2026-11-12T15:25:52.335486+00:00"
+  },
+  "code_cells": 16,
+  "executed_code_cells": 16,
+  "error_outputs": 0,
+  "common_lineage_output": "COMMON LINEAGE VALIDATION: PASS\nSources: 3 | Lineage mappings: 10 | Checks passed: 37\n",
+  "repeatability_output": "SUCCESS: tabular | Inputs: 1 | Outputs: 7\nManifest: data/pipeline_v1/tabular/pipeline_manifest.json\nPASS: tabular \u2014 source/output fingerprints, configuration and mappings match\nSUCCESS: documents | Inputs: 2 | Outputs: 1\nManifest: data/pipeline_v1/documents/pipeline_manifest.json\nPASS: documents \u2014 source/output fingerprints, configuration and mappings match\nPart B/C parity: PASS for 8 prepared output files\n",
+  "independence_and_failure_output": "SUCCESS: tabular | Inputs: 1 | Outputs: 7\nManifest: data/pipeline_v1/tabular/pipeline_manifest.json\nSUCCESS: documents | Inputs: 2 | Outputs: 1\nManifest: data/pipeline_v1/documents/pipeline_manifest.json\n{\n  \"independence\": [\n    {\n      \"pathway\": \"tabular\",\n      \"result\": \"PASS\",\n      \"prepared_inputs_available\": false\n    },\n    {\n      \"pathway\": \"documents\",\n      \"result\": \"PASS\",\n      \"prepared_inputs_available\": false\n    }\n  ],\n  \"failure_checks\": [\n    {\n      \"case\": \"F2 empty output\",\n      \"result\": \"PASS\",\n      \"response\": \"Missing or empty saved output\"\n    },\n    {\n      \"case\": \"F1 missing input\",\n      \"result\": \"PASS\",\n      \"response\": \"S01: missing input uci_dropout.csv\"\n    }\n  ]\n}\nPART C VERIFICATION: PASS\n",
+  "scope": "Colab notebook outputs are the new execution evidence. Other JSON manifests and data files retain their earlier local-run provenance; they were not downloaded from this Colab runtime."
+}

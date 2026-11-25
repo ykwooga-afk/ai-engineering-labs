@@ -46,4 +46,4 @@ The PDF chunk records retain source URL, source hash, page, cleaned-page offsets
 
 ## Remaining work
 
-Run and save the notebook in Google Colab if the current execution environment is local. Part C workflow integration, diagram and decisions are supplied with the complete Week 3 package; see the project README for commit evidence. Topic 4 should review PDF extraction, feature timing, representativeness and data quality. Model-level Week 2 criteria have not been evaluated.
+The saved notebook now includes the Google Colab run from 12 November 2026: all 16 code cells completed without error outputs. The [Colab verification record](../evidence/colab_execution_verification.json) identifies the exact notebook and its environment. Existing standalone data and JSON manifests retain their earlier local-run provenance; they are not exports from that Colab session. Part C workflow integration, diagram and decisions are supplied with the complete Week 3 package; see the project README for commit evidence. Topic 4 should review PDF extraction, feature timing, representativeness and data quality. Model-level Week 2 criteria have not been evaluated.

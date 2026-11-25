@@ -26,7 +26,9 @@ Each branch writes its own `pipeline_manifest.json`. The common Part B `data/wee
 - F1 missing input and F2 empty output were deliberately exercised on temporary copies; both were rejected. Actual source and successful output files were unchanged.
 - All **16 notebook code cells** completed. Part A/B retained its 37 passing content/provenance checks.
 
-Evidence: [first run](../evidence/week3_run1.json), [second run](../evidence/week3_run2.json), [repeatability and Part B parity](../evidence/week3_repeatability.json), and [independence/failure checks](../evidence/week3_independence_and_failures.json). The actual runtime is recorded in [environment.json](../evidence/environment.json). The supplied execution is local Python, not Google Colab; it does not constitute Colab platform evidence. These checks demonstrate same-environment preparation repeatability, not the Week 2 NFR4 model-evaluation acceptance target or cross-environment reproducibility.
+The saved [notebook](../notebooks/week3_pipeline.ipynb) now contains Google Colab execution from 12 November 2026. All 16 code cells completed without error outputs; Part A/B recorded 37 passing checks, and Part C recorded repeatability, eight-file Part B parity, fresh-workspace and failure-response passes. The [Colab verification record](../evidence/colab_execution_verification.json) records the notebook SHA-256 and its actual environment: Python 3.13.18, pandas 2.2.3 and pypdf 6.21.4.
+
+Earlier local-run evidence remains in [first run](../evidence/week3_run1.json), [second run](../evidence/week3_run2.json), [repeatability and Part B parity](../evidence/week3_repeatability.json), [independence/failure checks](../evidence/week3_independence_and_failures.json) and [environment.json](../evidence/environment.json). Those standalone JSON files and the prepared data retain their original local-run provenance; they were not exported from the later Colab runtime. Each run's checks demonstrate same-environment preparation repeatability, not the Week 2 NFR4 model-evaluation acceptance target or comprehensive cross-environment reproducibility.
 
 ## C2. Executed workflow
 
@@ -84,11 +86,13 @@ Source snapshots and annual macroeconomic release times remain uncertain for som
 
 ## C4. Saved artefacts and repository record
 
-The private `Lab3_ABC_WOO_YONG_KANG_A24AI0123.zip` contains the notebook, raw inputs, Part B outputs, Part C outputs, both kinds of manifests, documentation, diagrams and execution evidence. Relative paths match the existing repository structure. The local/Colab working location is `data/` under the project root (`/content/week3_project/data/` in Colab); Colab storage is temporary and outputs must be downloaded before reset.
+The current private Part A and Part B submission archives both include the same complete Colab-executed A–C notebook. Part A supplies the inventory and raw inputs; Part B supplies preparation decisions, prepared outputs and the common lineage manifest. These two archives do not contain every standalone Part C artefact. The Part C diagram, decisions, code and existing run evidence are available in this repository. Running the notebook recreates Part C outputs under `data/pipeline_v1/`; its optional final download cell exports generated data and evidence.
+
+Relative paths match the existing repository structure. The local/Colab working location is `data/` under the project root (`/content/week3_project/data/` in Colab); Colab storage is temporary and outputs must be downloaded before reset.
 
 The original Week 2 RAI2 rule restricts publishing real row-level profiles even though the UCI source permits attributed reuse. Therefore public GitHub receives the code, diagrams, documentation, aggregate evidence, source registry, manifests and attributed document text, while row-level CSVs stay in the private submission/working package. `data/WEEK3_STORAGE.md` records how to recreate them from the pinned public source. `.gitignore` is a convenience guard, not a mechanism for removing previously tracked data.
 
-Repository: https://github.com/ykwooga-afk/ai-engineering-labs. The README is updated with Week 3 links and actual verification status. Repository upload and a local passing run do not replace any required Colab execution or course-portal submission.
+Repository: https://github.com/ykwooga-afk/ai-engineering-labs. The README is updated with Week 3 links and actual verification status. The saved notebook supplies Colab execution evidence. Repository updates do not perform a course-portal submission.
 
 ## Part C reflection
 
